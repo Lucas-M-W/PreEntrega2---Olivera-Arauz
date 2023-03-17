@@ -1,0 +1,121 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+/* Colores */
+:root {
+    --color-primario: #7E1E91; /* Morado */
+    --color-secundario: #000000; /* Negro */
+}
+
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Encabezado */
+header {
+    background-color: var(--color-primario);
+    color: #ffffff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+main {
+    padding: 2rem;
+}
+
+h2 {
+    color: var(--color-primario);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.ShopContent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+.precio {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    background-color: var(--color-primario);
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card button:hover {
+    background-color: #5b124c;
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-primario);
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
